@@ -1,0 +1,119 @@
+.text h5 a{
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #168965;
+  text-decoration: none;
+}
+
+.text h5{
+  margin-top: 14px;
+}
+
+.icon{
+  margin-top: 10px;
+}
+
+.hijau{
+  color: #168965;
+}
+
+.form-text{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  border-radius: 12px;
+  height: 59px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+.form-number{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 59px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+.form-email{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  border-radius: 12px;
+  height: 59px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+.form-password{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  border-radius: 12px;
+  height: 59px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+.bg-form{
+  background-color: #F3F3F3;
+  height: 100%;
+  width: 100px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  background-color: #168965;
+  height: 30px;
+  padding: 4px;
+  padding-left: 10px;
+  width: 45px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.bg-hijau{
+  padding-top: 12px;
+}
+
+.btn-default{
+  background-color: #F3F3F3;
+  height: 59px;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+a .btn-green{
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  height: 49px;
+  width: 100%;
+  background-color: #168965;
+  color: white;
+  border: 1px solid #168965;
+  border-radius: 10px;
+}
+
+a .btn-green{
+  color: white;
+  text-decoration: none;
+}
+
+a .btn-green:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.tombol a{
+  text-decoration: none;
+}

@@ -1,0 +1,81 @@
+.bg-hijau{
+  background-color: #168965;
+}
+
+.bg-hijau-muda{
+  background-color: #D1E8E1;
+}
+
+.img{
+  display: block;
+  margin: auto;
+  padding: auto;
+  background-image: url(./img/1c.png);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+
+.text-1{
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.text-2{
+  font-size: 18px;
+  color: #168965;
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-3{
+  font-size: 18px;
+  color: #168965;
+  font-family: 'Nunito', sans-serif;
+}
+
+button{
+  height: 49px;
+  width: 181px;
+  background-color: #168965;
+  color: white;
+  border: 1px solid #168965;
+  border-radius: 10px;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.bundar-1{
+  width: 12px;
+  height: 12px;
+  background-color: #168965;
+  border-radius: 12px;
+}
+
+.bundar-2{
+  width: 12px;
+  height: 12px;
+  background-color: #D1E8E1;
+  border: 1px solid #168965;
+  border-radius: 12px;
+}
+
+.bundar-3{
+  width: 12px;
+  height: 12px;
+  background-color: #D1E8E1;
+  border: 1px solid #168965;
+  border-radius: 12px;
+}

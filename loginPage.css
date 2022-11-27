@@ -1,0 +1,127 @@
+.logo{
+  display: block;
+  margin: auto;
+  padding: auto;
+  background-image: url(./img/Asset\ -\ Logo\ Pasokku.png);
+  background-size: cover;
+  width: 200px;
+  height: 89px;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+i{
+  margin-top: 90px;
+}
+
+.text{
+  margin-top: 110px;
+}
+
+.form-control{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  border-radius: 24px;
+  height: 59px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+.btn-default{
+  background-color: #F3F3F3;
+  height: 59px;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 2px 1px 2px #bababa;
+}
+
+a .btn-green{
+  font-family: 'Nunito', sans-serif;
+  height: 49px;
+  width: 100%;
+  background-color: #168965;
+  color: white;
+  border: 1px solid #168965;
+  border-radius: 10px;
+}
+
+a .btn-green{
+  color: white;
+  text-decoration: none;
+}
+
+a .btn-green:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.tombol a{
+  text-decoration: none;
+}
+
+a .btn-green-outline{
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  height: 49px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #168965;
+  color: #168965;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a .btn-green-outline{
+  color: #168965;
+  text-decoration: none;
+}
+
+a .btn-green-outline:hover{
+  color: #168965;
+  text-decoration: none;
+}
+
+.text a{
+  text-decoration: none;
+  color: #168965;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+}
+
+.container{
+  position: relative;
+  max-width: 90%;
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.container .input-box{
+  position: relative;
+  height: 40px;
+}
+
+.form-password{
+  height: 59px;
+}
+
+.input-box input{
+  position: absolute;
+  width: 100%;
+}
+
+.input-box :is(i){
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-box i{
+  right: 15px;
+  cursor: pointer;
+}

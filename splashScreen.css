@@ -1,0 +1,10 @@
+body{
+  background-color: #168965;
+}
+
+.logo-pasoku{
+  background-image: url(./img/Pasokku\ Logo.png);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+}

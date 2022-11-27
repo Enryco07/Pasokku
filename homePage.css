@@ -1,0 +1,246 @@
+/* Search and Map */
+input{
+  border: none;
+}
+
+.search-box{
+  position: relative;
+  height: 55px;
+  width: 100%;
+  border-radius: 12px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.icon i{
+  color: #168965;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.search-box i{
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #168965;
+  cursor: pointer;
+}
+
+.search-box input{
+  height: 100%;
+  width: 100%;
+  padding: 0 65px 0 65px;
+}
+
+.form-control{
+  background-color: #f2f2f2;
+}
+
+/* Map box */
+.map-box{
+  border: 1px solid black;
+  height: 52px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.icon-map{
+  color: #168965;
+  padding-left: 22px;
+}
+
+.btn-hijau{
+  background-color: #168965;
+  color: white;
+  margin-top: 6px;
+  border-radius: 10px;
+  margin-right: 7px;
+}
+
+.txt p{
+  padding-top: 10px;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+/* Carousel */
+.container-2{
+  position: relative;
+  min-width: 350px;
+  min-height: 150px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.wrapper{
+  width: 200%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: 1s;
+}
+
+.card{
+  display: flex;
+  width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 1px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.card-thumb{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.indicators{
+  margin-bottom: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.indicators button{
+  background: none;
+  border: none;
+  outline: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #bababa;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+button.active{
+  width: 40px;
+  border-radius: 50px;
+  background: #168965;
+}
+
+/* List Card */
+.text{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.card-ayam{
+  border: 1px solid #bababa;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card-sapi{
+  border: 1px solid #bababa;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card-ayam-cincang{
+  border: 1px solid #bababa;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card-udang{
+  border: 1px solid #bababa;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.txt-1 p{
+  font-size: 13px;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+.txt-2 p{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+.location{
+  display: flex;
+  color: #bababa;
+}
+
+.text-grey{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: #bababa;
+}
+
+.gambar-ayam{
+  background-image: url(./img/ayam.png);
+  background-size: cover;
+  width: 167px;
+  height: 132px;
+}
+
+footer{
+  background-color: white;
+  border: 1px solid #bababa;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px -3px 15px 0px rgba(0,0,0,0.4);
+}
+
+.text-home{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: #168965;
+}
+
+.text-transaction{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: #bababa;
+}
+
+.text-profile{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: #bababa;
+}
+
+@media (min-width: 360px){
+  .card-ayam img{
+    min-width: 130px;
+  }
+
+  .card-sapi img{
+    min-width: 130px;
+  }
+
+  .card-ayam-cincang img{
+    min-width: 130px;
+  }
+
+  .card-udang img{
+    min-width: 130px;
+  }
+}
